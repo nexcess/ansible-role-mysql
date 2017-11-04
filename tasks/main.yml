@@ -1,8 +1,7 @@
 ---
 # Variable configuration.
 - include: variables.yml
-- include: cloudhost.yml
-  when: cloudhost
+- include: mysql.yml
 
 # Setup/install tasks.
 - include: setup-RedHat.yml

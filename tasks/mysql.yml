@@ -35,10 +35,3 @@
 - name: Flush Yum Cache
   command: yum clean all
 
-- name: Add MariaDB Repo
-  template:
-    src="mariadb_centos.repo.j2"
-    dest="/etc/yum.repos.d/mariadb.repo"
-    owner="root"
-    group="root"
-    mode=0644
