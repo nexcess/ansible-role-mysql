@@ -1,6 +1,7 @@
 ---
 # Variable configuration.
 - include: variables.yml
+- include: mysql.yml
 
 # Setup/install tasks.
 - include: setup-RedHat.yml

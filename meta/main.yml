@@ -23,3 +23,7 @@ galaxy_info:
       - all
   galaxy_tags:
     - database
+  dependencies:
+    - name: "nexcess.repo-mariadb"
+      src: "https://github.com/nexcess/ansible-role-repo-mariadb"
+
